@@ -15,7 +15,7 @@ func Plugin(ctx context.Context) *plugin.Plugin {
 		DefaultTransform: transform.FromGo().NullIfZero(),
 		TableMap: map[string]*plugin.Table{
 
-			"abaiazure_app_configuration": tableAbaiazureAppConfiguration(),
+			"abaiazure_app_configuration": tableAbaiazureAppConfiguration(ctx),
 		},
 	}
 	return p
