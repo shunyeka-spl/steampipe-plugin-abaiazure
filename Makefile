@@ -1,2 +1,2 @@
 install:
-	go build -o ~/.steampipe/plugins/hub.steampipe.io/plugins/shunyeka-spl/abaiazure@latest/steampipe-plugin-abaiazure.plugin *.go
+	go build -o ~/.steampipe/plugins/hub.steampipe.io/plugins/shunyeka-spl/steampipe-plugin-abaiazure@latest/abaiazure.plugin *.go
